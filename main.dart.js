@@ -68153,14 +68153,15 @@ F.a1e.prototype={
 $0:function(){this.a.xh()},
 $S:0}
 F.a1p.prototype={
-$2:function(a,b){var s=null,r=this.a,q=r.r,p=q[b]?C.l_:C.ca,o=r.f[b],n=this.b,m=r.r1?C.j:C.k
-m=L.mc(o,s,s,s,A.hY(s,s,m,s,s,s,s,s,s,s,s,n/70,s,s,s,s,!0,s,s,s,s,s,s,s),s,s)
-o=P.aG(0,0,1)
-if(q[b])if(r.r1)q=P.aD(51,255,82,82)
-else{q=C.xT.h(0,100)
-q.toString}else if(r.r1){q=C.Q.h(0,600).a
-q=P.aD(51,q>>>16&255,q>>>8&255,q&255)}else{q=C.Q.h(0,200)
-q.toString}return G.mK(T.JN(H.b([T.arn(G.mK(m,s,new S.ez(q,s,s,K.ej(r.go*7),s,s,C.a4),o,s,new V.aR(0,0,0,n/40),new V.aR(7,7,7,7),s))],t.J),C.bA,p,C.aU),s,s,P.aG(0,0,1),s,s,s,s)},
+$2:function(a,b){var s,r=null,q=this.a,p=q.r,o=p[b]?C.l_:C.ca,n=q.f[b],m=this.b,l=q.r1?C.j:C.k
+l=L.mc(n,r,r,r,A.hY(r,r,l,r,r,r,r,r,r,r,r,m/60,r,r,r,r,!0,r,r,r,r,r,r,r),r,r)
+n=m/200
+s=P.aG(0,0,1)
+if(p[b])if(q.r1)p=P.aD(51,255,82,82)
+else{p=C.xT.h(0,100)
+p.toString}else if(q.r1){p=C.Q.h(0,600).a
+p=P.aD(51,p>>>16&255,p>>>8&255,p&255)}else{p=C.Q.h(0,200)
+p.toString}return G.mK(T.JN(H.b([T.arn(G.mK(l,r,new S.ez(p,r,r,K.ej(q.go*7),r,r,C.a4),s,r,new V.aR(0,0,0,m/40),new V.aR(n,n,n,n),r))],t.J),C.bA,o,C.aU),r,r,P.aG(0,0,1),r,r,r,r)},
 $C:"$2",
 $R:2,
 $S:419}
