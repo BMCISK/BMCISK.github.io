@@ -68171,7 +68171,7 @@ $0:function(){this.a.xi()},
 $S:0}
 F.a1r.prototype={
 $2:function(a,b){var s,r,q,p,o,n,m=null,l=this.a,k=l.x,j=k[b]?C.hc:C.br,i=l.r[b]
-if(i==="")i="Sever message"
+if(i==="")i="Server Message"
 s=this.b
 if(l.rx){r=C.L.h(0,300)
 r.toString}else{r=C.L.h(0,600)
