@@ -67749,12 +67749,12 @@ F.HL.prototype={
 aO:function(){var s=$.df,r=(s==null?$.df=$.jr():s).iD(0,"[DEFAULT]")
 E.dy(r,$.fx())
 s=t.s
-return new F.GS(new D.L8(C.E9,new P.bn(t.V)),O.aCW(new K.en(r)),H.b(["Hello, This is BMCISK.","You can talk to anonymous people here!","Try touching the album art\ud83e\udd11","You can navigate to the next channel via the Skip button."],s),H.b(["","","",""],s),H.b([!1,!1,!1,!1],t.HZ),C.cY,C.cX,C.jU,H.b(["Electronica","K-pop"],s),H.b(["","Loading","Isk",""],s),[],F.z2(0),C.p)}}
+return new F.GS(new D.L8(C.E9,new P.bn(t.V)),O.aCW(new K.en(r)),H.b(["Hello, This is BMCISK.","You can talk to anonymous people here!","Try touching the album art\ud83e\udd11","You can navigate to the next channel via the Skip button."],s),H.b(["","","",""],s),H.b([!1,!1,!1,!1],t.HZ),C.cY,C.cX,C.jU,H.b(["Electronica","K-pop","\u3010\ufeff\uff56\uff41\uff50\uff4f\uff52\uff57\uff41\uff56\uff45\u3011","Future Bass"],s),H.b(["","Loading","Isk",""],s),[],F.z2(0),C.p)}}
 F.GS.prototype={
 ba:function(){var s,r,q,p,o,n,m=this
 m.bK()
 m.pn(m.fx)
-for(s=m.fr,r=m.e,q=0;q<2;++q){p=r.e
+for(s=m.fr,r=m.e,q=0;q<4;++q){p=r.e
 if(p==null){p=r.f
 o=$.Ge
 if(o==null){o=$.df
@@ -67814,7 +67814,7 @@ var $async$xi=P.j(function(a,b){if(a===1)return P.k(b,r)
 while(true)switch(s){case 0:o=q.cx.k(0,C.dW)
 q.DS()
 q.k2=[]
-p=(q.fx+1)%2
+p=(q.fx+1)%4
 q.fx=p
 s=2
 return P.h(q.pn(p),$async$xi)
@@ -67903,7 +67903,7 @@ F.a1v.prototype={
 $0:function(){var s=$.avZ,r=this.a.a
 if(s!=r){s=$.awd
 $.awd=s+1
-s=s>1}else s=!1
+s=s>3}else s=!1
 if(s){s=this.b
 s.f.push(r)
 s.r.push(s.fr[this.c])
